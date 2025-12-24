@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Document } from "react-router-dom";
 
 function ExpensesPage({ expenses, setExpenses }) {
   const [title, setTitle] = useState("");
